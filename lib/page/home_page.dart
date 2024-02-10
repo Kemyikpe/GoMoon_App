@@ -38,7 +38,7 @@ class HomePage extends StatelessWidget{
   }
 
   Widget _pageTitle(){
-    return const Text('#GoMoon',
+    return const Text('TravelMate',
     style: TextStyle(
       color: Colors.white,
       fontSize: 70,
@@ -80,8 +80,10 @@ class HomePage extends StatelessWidget{
 return Padding(
   padding: const EdgeInsets.only(bottom: 20), // Add top padding
   child: CustomDropDownButtonClass(values:const [
-      'james webb station',
-      'Preneure Station'
+      'james web station',
+      'Preneure Station',
+    'cold station'
+
       ], width: _deviceWidth),
 );
   }
